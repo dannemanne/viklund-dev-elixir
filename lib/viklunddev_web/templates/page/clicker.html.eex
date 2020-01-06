@@ -1,0 +1,6 @@
+<div id="click-root"></div>
+
+<script src="<%= static_path(@conn, "/js/clicker.js") %>"></script>
+<script type="text/javascript">
+  ReactDom.render(Clicker, document.getElementById("click-root"));
+</script>

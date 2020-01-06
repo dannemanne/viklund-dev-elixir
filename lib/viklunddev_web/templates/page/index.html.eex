@@ -1,0 +1,7 @@
+<h2>Welcome!</h2>
+<img src="<%= static_path(@conn, "/images/Daniel_Viklund.png") %>" class="profile" />
+
+<div>
+  <%= link "Clicker", to: "/clicker", class: "button" %>
+  <%= link "Photos", to: "/photos", class: "button" %>
+</div>
